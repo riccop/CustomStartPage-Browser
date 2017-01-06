@@ -8,3 +8,6 @@ Requirements:
 (2) have divisions by categories
 (3) dynamic personalization with the user
 (3) ...
+
+
+Doing...
