@@ -1,0 +1,40 @@
+
+body {
+	background: #111222;										/* Page background */
+	color: #999;														/* Font color */
+    padding-top: 50px;
+    padding-bottom: 50px;
+	font-family: "Museo", "Helvetica Neue", sans-serif;	/* Font */
+	text-shadow: rgba(0,0,0,0.6) 1px 1px 0; /* Text Shadow */
+}
+
+div {
+	color: #4cae4c;
+	font-family: "Rockwell";
+}
+
+input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid white;
+    width: 35%;
+    text-align: center;
+    font-size: x-large;
+}
+
+select {
+    width: 10%;
+}
+
+.mybtn {
+    color: #4cae4c;
+    font-family: "Rockwell";
+    width: 10%;
+}
+
+/* .class - acede class in html  ex: class = "greyRock"*/
+.greyRock {
+    color: #cccccc;
+    font-family: "Rockwell";
+}

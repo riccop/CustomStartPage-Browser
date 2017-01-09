@@ -1,0 +1,26 @@
+CREATE DATABASE mydb;
+
+CREATE TABLE Users
+(
+U_Id INT NOT NULL AUTO_INCREMENT,
+Name VARCHAR(255),
+Password VARCHAR(255),
+Mail VARCHAR(255),
+DayOfBirth DATE,
+PRIMARY KEY(U_Id)
+);
+
+CREATE TABLE Bookmarks
+(
+Name VARCHAR(255),
+URL VARCHAR(255),
+FOREIGN KEY (U_Id),
+FOREIGN KEY (Category)
+);
+
+CREATE TABLE Category
+(
+Category VARCHAR(255),
+PRIMARY KEY (Category)
+);
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Start Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bookmarks.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <div align="center">
+        <h2>Add webpage by category</h2>
+            <div>
+                <!--<label for="category"> Categories: </label>-->
+                <select name="category" id="category">
+                    <option selected disabled>Select category</option>
+                    <option>Mail</option>
+                    <option>Social</option>
+                    <option>Utility</option>
+                    <option>Work</option>
+                    <option>Shop</option>
+                    <option>Other</option>
+                </select>
+            </div>
+            <div style="padding: 1%">
+                <!--<label for="newUrl">URL: </label>-->
+                <input type="text" name="newUrl" id="newUrl" placeholder="https://www.google.com">
+            </div>
+            <div style="padding: 1%">
+                <!--<label for="newUrl">URL: </label>-->
+                <input type="text" name="displayName" id="displayName" placeholder="Google">
+            </div>
+            <div style="padding: 1%">
+                <button id="addbookmark" class="btn btn-default mybtn" type="button">Add</button>
+            </div>
+    </div>
+
+    <hr width="35%" style="border-color: #4cae4c" align="center"/>
+
+    <div align="center">
+        <div>
+            <h2>Add category</h2>
+            <input type="text" name="newCtgr" id="newCtgr" placeholder="Category">
+        </div>
+        <div style="padding: 1%">
+            <button id="addctgr" class="btn btn-default mybtn" type="button">Add</button>
+        </div>
+    </div>
+
+    <hr width="35%" style="border-color: #4cae4c" align="center"/>
+
+    <div align="center">
+        <div>
+            <h2>Remove category</h2>
+            <h6>(this remove all bookmarks of category)</h6>
+            <select id="selectRmvCtgr" name="selectRmvCtgr">
+                <option selected disabled>Select category</option>
+            </select>
+        </div>
+        <div style="padding: 1%">
+            <button id="rmvctgr" class="btn btn-default mybtn" type="button">Remove</button>
+        </div>
+    </div>
+
+    <hr width="35%" style="border-color: #4cae4c" align="center"/>
+
+    <div align="center">
+        <h2>Donwload settings file</h2>
+        <h6>(swap links.xml in xml folder and keep the original name)</h6>
+        <div>
+            <button id="downloadConfigFile" class="btn btn-default mybtn" type="button">Get it</button>
+        </div>
+    </div>
+
+    <div align="center">
+        <hr width="35%" style="border-color: #4cae4c" align="center"/>
+        <a href="startPage.html" style="color: #4cae4c">Start Page</a>
+    </div>
+
+</body>
+
+</html>

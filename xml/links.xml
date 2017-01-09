@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookmarks>
+
+  <!--TODO
+    mark icon: img="icon.png"
+    no html dividir por tabelas para ter mesma largura para todos os elementos ou fazer doutra maneira?
+  -->
+
+  <Engines>
+    <mark ref="https://www.google.com">Google</mark>
+    <mark ref="https://duckduckgo.com/">DuckDuckGO</mark>
+  </Engines>
+
+  <Mail>
+    <mark ref="https://inbox.google.com">Inbox</mark>
+    <mark ref="https://outlook.live.com">Outlook</mark>
+    <mark ref="http://mail.alunos.uminho.pt">Uminho</mark>
+  </Mail>
+
+  <Social>
+    <mark ref="https://www.facebook.com/">Facebook</mark>
+  </Social>
+
+  <Utility>
+  </Utility>
+
+  <Work>
+  </Work>
+
+  <Shop>
+  </Shop>
+
+  <Other>
+  </Other>
+
+</bookmarks>
